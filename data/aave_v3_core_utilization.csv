@@ -1,0 +1,6 @@
+block,utc,usdt_util_pct,usdc_util_pct,weth_util_pct,reserves_frozen,note
+26300700,2026-10-29T20:10Z,92.69,94.44,79.21,no,before the attack
+26301150,2026-10-29T21:40Z,90.38,93.05,81.9,no,after the attacker position
+26301300,2026-10-29T22:10Z,91.05,94.57,82.03,yes,Guardian freeze in place
+26303400,2026-10-30T05:12Z,99.89,97.45,83.23,yes,withdrawal squeeze peak
+26312100,2026-10-31T10:18Z,95.43,95.83,85.1,no,"wave 1 unfreeze, LTV kept at 0"

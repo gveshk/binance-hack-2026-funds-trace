@@ -1,0 +1,10 @@
+destination,approx_usd,share_of_6_36B,detail
+frozen or seized,2.70B,42%,"USDT 1.774B, USDC 0.825B, RLUSD 0.041B, USD1 0.028B, Arbitrum 0.031B, OP 0.005B"
+BTC held,1.48B,23%,"18,270.2 BTC in 19 unspent lots"
+ETH stashes,1.16-1.19B,18-19%,"512,621 ETH in seven stashes plus about 4,229 ETH in an eighth found on 31 Oct; all nonce 0"
+XRP held,0.30B,5%,233.46M XRP
+TRX,0.24B at cut-off,4%,638.2M split into five wallets plus 88.9M in TRBd at the cut-off; by 31 Oct 15:26 UTC about 430M TRX had been dispersed from TRBd to 176 fresh wallets. Price assumed about $0.33
+SOL held,0.10B,1.5%,970.5K SOL
+Aave collateral left behind,0.06B,1%,60M USDT
+conversion losses,0.12B,2%,Bitquery estimate
+other or unresolved,remainder,3%,"WBETH 29,934 unsold, POL 46.6M, AVAX proceeds, WLFI 48.5M, long-tail tokens"

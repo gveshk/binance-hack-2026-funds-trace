@@ -1,0 +1,105 @@
+chain,address,group,label,role,status_at_cutoff,attribution_source,evidence
+ethereum,0x7c8601d4645b93cea45f71e118a729332e6b5ca0,attacker operations,operator,Signed the EIP-7702 delegation and every sweep call,active (gas wallet),Bitquery; Cointegrity,sender of the type 4 delegation tx and every sweep; funded by Tornado Cash 0.1 ETH withdrawals and by 0xe4f9
+ethereum,0xe4f9070e1316de2988fc6f869fead8fb99cc74cd,attacker operations,gas funder,Received Tornado Cash withdrawals; sent 1.082 ETH gas to the operator,inactive,Bitquery,Tornado Cash 0.1 and 1 ETH withdrawals in; 1.082 ETH out at 18:20:47 on 29 Oct
+ethereum,0x63e842b054bd624a465454d533c33f573e9c6fae,attacker operations,sweeper contract,Contract Binance 14 was delegated to with EIP-7702,deployed,Bitquery; Elliptic,"contractAddress of deploy tx 0x97408e75 (15:59:11 on 29 Oct, sent by the operator)"
+ethereum,0x837810e3be7a3e89c570e7a01a13d3b566aafbc3,attacker operations,rehearsal wallet,sweep was rehearsed on this wallet between 13:51 and 16:47 on 29 Oct,inactive,TRM; WazzCrypto describe rehearsals,sweep calls from the operator
+ethereum,0x9c29ba2de4b2d6c3630685650663cfe7b70dbb6b,attacker operations,rehearsal wallet,sweep was rehearsed on this wallet between 13:51 and 16:47 on 29 Oct,inactive,TRM; WazzCrypto describe rehearsals,sweep calls from the operator
+ethereum,0x43aedb9bad6219677a2c8d6858321c16988404bd,attacker operations,rehearsal wallet,sweep was rehearsed on this wallet between 13:51 and 16:47 on 29 Oct,inactive,TRM; WazzCrypto describe rehearsals,sweep calls from the operator
+ethereum,0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c,attacker operations,main receiver,Main receiver on every EVM chain (Etherscan: Binance Hot Wallet Exploiter 2),frozen by Tether and Circle; nonce 729,Etherscan label; Aave forum; all firms,recipient of the 20:24:23 sweep
+ethereum,0xa97bf7836f8a08f9ed91d41453d371493fae8d10,attacker operations,second receiver,Received the 23:56 sweep; dumped long-tail tokens,"123,175.53 USDC frozen by Circle; nonce 1,269",Bitquery,"about 2,400 outbound token transfers on 30 Oct"
+ethereum,0x9749292d74fd460982d0912ea9515ea24736c762,stablecoin hop,hop 1,Got 500M USDT; sold 325M through intent fills; passed 175M on,"blacklisted 21:01:35, empty",on-chain,USDT transfers in the ledger
+ethereum,0x0ddf0480016e6bcb2c1f5d190d221fba1320697e,stablecoin hop,hop 2,Got 200M USDT; sold 10M on Uniswap; passed 190M to the Aave wallet,"blacklisted 21:01:47, empty",on-chain,USDT transfers in the ledger
+ethereum,0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a,stablecoin hop,hop 3,"Aave wallet: supplied 60M USDT, borrowed 19,762 ETH","blacklisted 21:02:47, empty; Aave position open",on-chain,USDT transfers in the ledger
+ethereum,0x77edef23fbd05921c26fe29fcc3a65e14d2ac3eb,stablecoin hop,hop 4,"Got 130M USDT and 23,314.5 ETH from the Aave wallet; sold 50M; passed 80M on","not blacklisted, empty",on-chain,USDT transfers in the ledger
+ethereum,0x7aa4d3029e4c6a8e916300014ad95b6d6c03bfd1,stablecoin hop,hop 5,"Sold 50M; passed 30M and 57,891.85 ETH on","blacklisted 21:12:35, empty",on-chain,USDT transfers in the ledger
+ethereum,0xccbef95633adb5cd2b5038db5a38d77e726ca263,stablecoin hop,hop 6,Relay,"blacklisted 21:16:47, empty",on-chain,USDT transfers in the ledger
+ethereum,0xb171ca86f82070282138352ff7111b494060c8c3,stablecoin hop,hop 7,"Relay; passed 57,891.77 ETH to a stash",30M USDT frozen 21:18:59,on-chain,USDT transfers in the ledger
+ethereum,0x811f15855476156ebf86ba3b84fafb8ceaa4e84c,stablecoin hop,hop 8,Relay for 175M,"not blacklisted, empty",on-chain,USDT transfers in the ledger
+ethereum,0xaa246bf639586a6ba46762d378ce50ca4fc654a0,stablecoin hop,hop 9,Relay for 175M,175M USDT frozen 21:14:59,on-chain,USDT transfers in the ledger
+ethereum,0x600d6f00eadabdb514561ceeb43730a7103e8298,token seller,seller,Sold 7.77T PEPE,"sent 14,050 ETH to 0x79e7",on-chain,funded with 0.5 ETH gas from 0x5227; sold through Uniswap SwapRouter02 or v4 PoolManager
+ethereum,0xcf4ca2bdf21bc3a467a00b6afe72b833982723e0,token seller,seller,Sold 2.57M LINK,"sent 11,560.8 ETH to 0x79e7",on-chain,funded with 0.5 ETH gas from 0x5227; sold through Uniswap SwapRouter02 or v4 PoolManager
+ethereum,0xb3ddec0ccc5c3ba733fcdf5a15f98c95ec5a5fdb,token seller,seller,"Sold 167.14 WBTC, 9.71M USDe","sent 8,556.9 ETH to 0x79e7",on-chain,funded with 0.5 ETH gas from 0x5227; sold through Uniswap SwapRouter02 or v4 PoolManager
+ethereum,0x42cdf00c85005630cc8605731b9364f712077810,token seller,seller,"Sold 7.02M UNI, 21.85M ONDO","sent 20,523.5 ETH to 0x897c",on-chain,funded with 0.5 ETH gas from 0x5227; sold through Uniswap SwapRouter02 or v4 PoolManager
+ethereum,0x7f9dc988b46336ad536828fad50fa8fa1e5415e3,token seller,seller,"Sold 217.5M ENA sold; 29,934 WBETH still held","sent 15,292 ETH to 0xc887",on-chain,funded with 0.5 ETH gas from 0x5227; sold through Uniswap SwapRouter02 or v4 PoolManager
+ethereum,0xe7024ab80143b1ef843efe6a58368696cb87958d,token seller,seller,"Sold 88.54M RLUSD (40.54M stuck), 127,953 AAVE","sent 26,825 ETH to 0x5440",on-chain,funded with 0.5 ETH gas from 0x5227; sold through Uniswap SwapRouter02 or v4 PoolManager
+ethereum,0x8c7111e9a3270457b76f0bd137209089047a6aa4,token seller,seller,Sold 17.32M WLD,"sent 2,726.3 ETH to 0x5440",on-chain,funded with 0.5 ETH gas from 0x5227; sold through Uniswap SwapRouter02 or v4 PoolManager
+ethereum,0xb58bf76d209fa71f60013ce1933ca331177a4f08,token seller,seller,Sold 3.38B RSR,"sent 1,855.4 ETH to 0x5440",on-chain,funded with 0.5 ETH gas from 0x5227; sold through Uniswap SwapRouter02 or v4 PoolManager
+ethereum,0x1291be4c90239d14527ba880ad2b6e5cb82116b1,token seller,seller,Sold 1.76M MORPHO,"sent 1,546.8 ETH to 0x5440",on-chain,funded with 0.5 ETH gas from 0x5227; sold through Uniswap SwapRouter02 or v4 PoolManager
+ethereum,0x11861b31b97c5c6550d49b03b1eed1a105774084,token seller,seller,Sold 4.74M VIRTUAL on Base (31 Oct),"sent 1,186.8 ETH to 0xc209 via Stargate",on-chain,funded with 0.5 ETH gas from 0x5227; sold through Uniswap SwapRouter02 or v4 PoolManager
+ethereum,0x8532fa14acaf483729c449b8458aeddb900543d4,ETH stash,stash,"Holds 197,460.0 ETH; funded by raw stolen ETH from 0x5227","untouched, nonce 0",on-chain,balance and nonce read; see data/snapshots
+ethereum,0xc887af690e0301cd4edbbce8f8d31b4ec65b286a,ETH stash,stash,"Holds 137,602.0 ETH; funded by 122,310 from USDT intent fills; 15,292 from the ENA sale","untouched, nonce 0",on-chain,balance and nonce read; see data/snapshots
+ethereum,0x897c80d1a9729e94460e2bd93178bd5215158df3,ETH stash,stash,"Holds 78,415.3 ETH; funded by Aave borrow plus 100M USDT of DEX swaps; UNI and ONDO","untouched, nonce 0",on-chain,balance and nonce read; see data/snapshots
+ethereum,0x54401f80da97893a15d43566184635b6674bc942,ETH stash,stash,"Holds 40,600.7 ETH; funded by RLUSD, AAVE, WLD, RSR, MORPHO sales; 7,647 from 0xa97b","untouched, nonce 0",on-chain,balance and nonce read; see data/snapshots
+ethereum,0x79e70d139fc05aa75f75611fdf2680e9952b544a,ETH stash,stash,"Holds 34,279.7 ETH; funded by PEPE, LINK, WBTC and USDe sales","untouched, nonce 0",on-chain,balance and nonce read; see data/snapshots
+ethereum,0x03b0ee5d82990cff1bda48651ac3e436d1a020ea,ETH stash,stash,"Holds 17,260.1 ETH; funded by 0x5227 own altcoin swaps","untouched, nonce 0",on-chain,balance and nonce read; see data/snapshots
+ethereum,0xc2096a12ebe0944f4d39e59979f485afd92d850a,ETH stash,stash,"Holds 7,002.8 ETH; funded by 0xa97b 3,000; Base proceeds 1,187; small sellers","untouched, nonce 0",on-chain,balance and nonce read; see data/snapshots
+ethereum,0x8d4b8ee62124b7ee140a51ddd07390a56f1c9e19,ETH stash,"stash (eighth, found 31 Oct)","Holds about 4,229 ETH; funded 30 Oct by seller wallets 0x0084, 0xf1ea, 0xa3b3 (3,236.7 ETH) and 31 Oct by new sellers and 0xa97b (992.5 ETH)","untouched, nonce 0",on-chain,found in the 31 Oct 15:26 UTC snapshot; not in the first report
+ethereum,0x209178dd0f192213e374af795d785539e919562a,token seller,relay and SAHARA seller (31 Oct),Got 244.94 ETH from 0xa97b and sent it straight back; sold 69.8M SAHARA; sent 132.55 ETH to the eighth stash,"nonce 6, empty",on-chain,
+ethereum,0x0084847bb9384d2fc5e8836e663689467e3e4c81,token seller,seller (30 Oct),Sent ETH to the eighth stash on 30 Oct; tokens sold not traced,,on-chain,
+ethereum,0xf1eadb247ffc7d7d6600e84daaf9ee85737e73c4,token seller,seller (30 Oct),Sent ETH to the eighth stash on 30 Oct; tokens sold not traced,,on-chain,
+ethereum,0xa3b3dee870f01560fdbe5af659c9c9135748886f,token seller,seller (30 Oct),Sent ETH to the eighth stash on 30 Oct; tokens sold not traced,,on-chain,
+ethereum,0x337403dc35a87bbd787ae8e7b61a7fcb19e3e6a5,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0x84614d0bfce3417088e20e2bd9d6d6091279e9b8,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0x774138791890148b42822d9d1d69965ce38312ab,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0x47de691e73647c94a14d2b08bfb132b134ec7226,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0xac49b4c5be18b17bfcd6c9ec265f85f4387c29f9,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0x04529ce891cf942e37d9f477a4e34ab031ec6dc9,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0xef1f5d4d9c11e16749c099f4006390e804c65f09,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0x5c23023ca6633f91ded909b4a753a3ca00fea4fc,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0xe1b92d6e3075bba3d0ab921dd5e95f97e1ad52aa,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0xe5912b8eb692305a55370ec68cb6a9ab139c7aaa,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0x1439e9d8dd8e543b660609b81b4b4df66901ae1a,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0xa1477b07f370d8e0dc84e94538dd40f75a523fc7,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0xce9d97ee40aa605ac117c333b5397839cc3fe807,token seller,seller (31 Oct),"Funded with 0.05 ETH gas by 0xa97b on 31 Oct and given one long-tail token (ENSO, FF, REZ, OPEN, ZBT and others)",active at snapshot,on-chain,"second selling round, 12:48 to 14:32 UTC on 31 Oct"
+ethereum,0x74edc79fea13bdf1f7841570227127cec493bdd9,counterparty,intent filler,Filled UniswapX or SimpleSettlement orders that sold attacker USDT for ETH,not blacklisted by Tether,on-chain,counterparty in the intent fill transactions; isBlackListed false
+ethereum,0x0000000000be226afde21672a5e4adc45692e69d,counterparty,intent filler,Filled UniswapX or SimpleSettlement orders that sold attacker USDT for ETH,not blacklisted by Tether,on-chain,counterparty in the intent fill transactions; isBlackListed false
+ethereum,0xbeef02961503351625926ea9a11ae13b29f5c555,counterparty,intent filler,Filled UniswapX or SimpleSettlement orders that sold attacker USDT for ETH,not blacklisted by Tether,on-chain,counterparty in the intent fill transactions; isBlackListed false
+ethereum,0xec4fb7e7c35c241e1138a2d8cfbb09f3ad1ccb22,counterparty,intent filler,Filled UniswapX or SimpleSettlement orders that sold attacker USDT for ETH,not blacklisted by Tether,on-chain,counterparty in the intent fill transactions; isBlackListed false
+ethereum,0x9b1303ebf09bc51b7fac376c9e421e8daae63b82,counterparty,intent filler,Filled UniswapX or SimpleSettlement orders that sold attacker USDT for ETH,not blacklisted by Tether,on-chain,counterparty in the intent fill transactions; isBlackListed false
+ethereum,0x28c6c06298d514db089934071355e5743bf21d60,Binance,Binance 14,Hot wallet delegated with EIP-7702 and swept,delegation revoked 00:10:35 on 30 Oct,Etherscan label,type 4 tx 0xad99264d
+ethereum,0xdfd5293d8e347dfe59e90efd55b2956a1343963d,Binance,Binance 16,"Sent 28,005.6 ETH and 55.74M USDT without delegation",,TRM,transfers in the ledger
+ethereum,0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055,Binance,Binance smart account,Released 823M USDC,,Bitquery; TRM,transfers in the ledger
+arbitrum,0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c,attacker operations,receiver,"Received 74.56M ARB and 8,426 ETH",emptied,on-chain,
+arbitrum,0x3e2bf1ac6bf0934bbba6456c341c2ecbced632d5,attacker operations,consolidation wallet,Consolidated ARB and ETH,emptied by the Arbitrum Security Council 00:18:20 on 30 Oct,on-chain,same address reused on Avalanche and Optimism
+optimism,0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c,attacker operations,receiver,Received 44.23M OP,moved out by an L1-originated deposit tx 00:12:15 on 31 Oct,on-chain,
+base,0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c,attacker operations,receiver,Received 4.74M VIRTUAL,passed to 0x11861b31,on-chain,
+base,0x11861b31b97c5c6550d49b03b1eed1a105774084,token seller,seller,Sold VIRTUAL and bridged ETH to Ethereum over Stargate,done,on-chain,
+avalanche,0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c,attacker operations,receiver,receiver,,on-chain; 0x8035 also named by Cointegrity,
+avalanche,0x80358c5b8f9b2cc27147a1e0f2a6c9a30eb2c397,attacker operations,hop,hop,,on-chain; 0x8035 also named by Cointegrity,
+avalanche,0xc39e690bea48448cc47e7acddfe30e6453e09824,attacker operations,hop; CCTP sender,hop; CCTP sender,,on-chain; 0x8035 also named by Cointegrity,
+avalanche,0x2ef0f69cb884a0bd8a64a6cf88c61e716f87f033,attacker operations,hop; ParaSwap seller,hop; ParaSwap seller,,on-chain; 0x8035 also named by Cointegrity,
+avalanche,0x554d2a66aa6f5d4b6fd23b649270f011072b4771,attacker operations,"hop; got 200,005 AVAX","hop; got 200,005 AVAX",,on-chain; 0x8035 also named by Cointegrity,
+polygon,0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c,attacker operations,receiver,Received 46.63M POL and 6.19M USDT0,"never sent, nonce 0",on-chain,
+tron,TG5iBMQPrDzJJAUM8GMVBf1hRaJ1wvzsGi,attacker operations,first receiver,Received 612.73M USDT and 46.38M TRX,312.73M USDT frozen,on-chain,TronGrid
+tron,TPBkSjkCMn2ckrMuAP8n2J1jdjbw76bKN4,attacker operations,swapper,"Sold about 234M USDT for TRX; 10,000 USDT JustLend test","blacklisted, empty",on-chain,TronGrid
+tron,TCzBTkqn66yApqbYoPezaEQosM5DAd7Y62,attacker operations,hop,Got 65.99M USDT,65.99M USDT frozen,on-chain,TronGrid
+tron,TSpe5HC3PRD2svJcr1YoGszhHk2mtkyZ8A,TRX stash,TRX stash,"Held 638.19M TRX, split into five on 30 Oct",split,on-chain,TronGrid
+tron,TRBdWqHnDVSZCVGfgHdKFLQPirQcA2PRki,TRX stash,TRX holder,"Received the 46.38M stolen TRX, then 480M TRX back from four split wallets; dispersing since 30 Oct 02:19 (see data/raw/tron_TRBd_outflows.csv)",dispersing,on-chain,TronGrid
+tron,TAk1xJNWuBYvJHLsUiBFLeuK6xvpQUFYP5,TRX stash,TRX split wallet,One of five wallets the 638.2M TRX was split into,see snapshots; four of five sent their 120M back to TRBd,on-chain,TronGrid
+tron,TL2F4GhnaFVZBZPncHYjwfYZFW44NcfVwj,TRX stash,TRX split wallet,One of five wallets the 638.2M TRX was split into,see snapshots; four of five sent their 120M back to TRBd,on-chain,TronGrid
+tron,TCBAz7itvtX5CjBzVMPQdrbwQLN63ao1fk,TRX stash,TRX split wallet,One of five wallets the 638.2M TRX was split into,see snapshots; four of five sent their 120M back to TRBd,on-chain,TronGrid
+tron,TJajtPqDqUGh1Sr1j8ugHoSXBVpaFLLHKT,TRX stash,TRX split wallet,One of five wallets the 638.2M TRX was split into,see snapshots; four of five sent their 120M back to TRBd,on-chain,TronGrid
+tron,TKkH2vH6kyi2QKcMbqym53WMuvdd1xvw6K,TRX stash,TRX split wallet,One of five wallets the 638.2M TRX was split into,see snapshots; four of five sent their 120M back to TRBd,on-chain,TronGrid
+tron,TTJxU3P8rHycAyFY4kVtGNfmnMH4ezcuM9,unidentified,unidentified contract,Approved and called by TPBk and TCzBTk (method 0x87517c45),unknown,on-chain,not identified
+bitcoin,bc1q0mtc2f5agpkvlq6hhahmfr3hlr55kyfjhl2mnm,attacker operations,first receiver,"Received 18,270.2 BTC in 11 txs, then started the peel chain",emptied into lots,on-chain,mempool.space
+bitcoin,bc1qnq6jj9jmlf3945m3l8s0kxnqehrsga300k8t3s,BTC lot,BTC lot,1000 BTC peel output (ledger r029),unspent,on-chain,mempool.space
+bitcoin,bc1qxrxujwxfnvz040jw76d26zhjdg5jura7hs968s,BTC lot,BTC lot,1000 BTC peel output (ledger r030),unspent,on-chain,mempool.space
+bitcoin,bc1qs3aej5tmcdz0vctz8y9rjcxtxg8v5385577s56,BTC lot,BTC lot,1000 BTC peel output (ledger r031),unspent,on-chain,mempool.space
+bitcoin,bc1qjwdw6vrzq4vf6hckutvx4ucj86awwv99mxnz7w,BTC lot,BTC lot,1000 BTC peel output (ledger r032),unspent,on-chain,mempool.space
+bitcoin,bc1q0ts8gaf9ht0rr4u02hr56f8thndqsc4kmkmfv3,BTC lot,BTC lot,1000 BTC peel output (ledger r033),unspent,on-chain,mempool.space
+bitcoin,bc1qrg025e2pgx0rwya2kpgtj30972p64jt0hn6zyt,BTC lot,BTC lot,832.4999 BTC peel output (ledger r034),unspent,on-chain,mempool.space
+bitcoin,bc1qepc70u3u476vgvg3hfcwjgu4mecxe2uchs4lag,BTC lot,BTC lot,1000 BTC peel output (ledger r035),unspent,on-chain,mempool.space
+bitcoin,bc1qm2j6v3247khlwzxl7p9vqnfkghcllyhv9wjaat,BTC lot,BTC lot,1000 BTC peel output (ledger r036),unspent,on-chain,mempool.space
+bitcoin,bc1qdfhmlrdvg4tm87zjl0vyf0xflp5ql50q3g88gw,BTC lot,BTC lot,1000 BTC peel output (ledger r037),unspent,on-chain,mempool.space
+bitcoin,bc1q2wvz0kcsn4hqmajwtey30ud27fl25w8pveznn6,BTC lot,BTC lot,1000 BTC peel output (ledger r038),unspent,on-chain,mempool.space
+bitcoin,bc1qg3nrzpuvq2pxqx74tcrywr09dc208ze96n3t53,BTC lot,BTC lot,1000 BTC peel output (ledger r039),unspent,on-chain,mempool.space
+bitcoin,bc1qz8hdwv8gmml0u96dsvnzsagz6krjyzxmgxupdp,BTC lot,BTC lot,1000 BTC peel output (ledger r040),unspent,on-chain,mempool.space
+bitcoin,bc1qalwnl7dtaa73fsq5tyn0ghfy3fgfpqkt69tca8,BTC lot,BTC lot,1000 BTC peel output (ledger r041),unspent,on-chain,mempool.space
+bitcoin,bc1q63qrfrpsg5hh0zzn3kp2xx9vljl7dq7tatsjxp,BTC lot,BTC lot,1000 BTC peel output (ledger r042),unspent,on-chain,mempool.space
+bitcoin,bc1qf5cyvv9w50tx9xx9s3xwsne0z87wvjj9l8a35u,BTC lot,BTC lot,1000 BTC peel output (ledger r043),unspent,on-chain,mempool.space
+bitcoin,bc1qs6xnmhar38z44g2za93pv8ygdcwurrh8l87w3v,BTC lot,BTC lot,1000 BTC peel output (ledger r044),unspent,on-chain,mempool.space
+bitcoin,bc1qm8v88m5fy6kuq9myva2eemwycxqd3e0zcrs2l8,BTC lot,BTC lot,1000 BTC peel output (ledger r045),unspent,on-chain,mempool.space
+bitcoin,bc1q42flhayrzy3zh8lkyevw8qcjduurt9a35wlsyx,BTC lot,BTC lot,1000 BTC peel output (ledger r046),unspent,on-chain,mempool.space
+bitcoin,bc1qxg0l4p6xc50zuv9cl5f0l0wmaxjpg8wcy7s9ra,BTC lot,BTC lot,437.7 BTC peel output (ledger r074),unspent,on-chain,mempool.space
+xrpl,rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx,attacker operations,receiver,Received 233.46M XRP in five payments,has sent nothing,on-chain,XRPL node
+solana,AffzFDKZbyMiU11zmVBoAqD25ugpr7xoWWyRyGigBEaU,attacker operations,receiver,Received about 966.7K SOL,has not moved,on-chain,Solana RPC

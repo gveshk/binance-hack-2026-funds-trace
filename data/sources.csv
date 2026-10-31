@@ -1,0 +1,14 @@
+source,url,used_for
+TRM Labs,https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history,"theft size, chain list, attribution"
+Elliptic,https://www.elliptic.co/insights/binance-largest-hack-in-history/,"theft size, frozen totals, AVAX path"
+Bitquery,https://www.bitquery.io/investigations/binance-hack,"address leads, slippage estimate"
+Cointegrity,https://cointegrity.substack.com/p/the-binance-hack-of-29-october-2026,"address leads, Tron exits"
+Aave governance forum,https://governance.aave.com/t/binance-hot-wallet-exploit-aaves-response/25954,"Aave freezes, risk actions, liquidation price"
+TFTC,https://www.tftc.io/binance-hack-hot-wallet-signing-eip-7702-stablecoin-freeze-aave,Binance and Arbitrum posts
+Bitcoin.com News,https://news.bitcoin.com/security/binance-hack-north-korea-lazarus-tradertraitor/,"attribution, Chainalysis figure"
+CoinDesk,https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths,attribution
+Ethereum and EVM L2s,Alchemy RPC; Etherscan v2 API,every EVM row
+Tron,https://api.trongrid.io,every Tron row
+Bitcoin,https://mempool.space/api,every Bitcoin row
+XRP Ledger,https://xrplcluster.com,every XRPL row
+Solana,https://api.mainnet-beta.solana.com,every Solana row

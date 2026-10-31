@@ -1,0 +1,698 @@
+{
+ "taken_at": "2026-10-31T15:31:10.100Z",
+ "ethereum": {
+  "block": 26313654,
+  "block_time": "2026-10-31T15:30:59.000Z",
+  "stash_total_eth": 516849.7,
+  "wallets": [
+   {
+    "address": "0x7c8601d4645b93cea45f71e118a729332e6b5ca0",
+    "group": "attacker operations",
+    "label": "operator",
+    "eth": 1.1776,
+    "nonce": 23
+   },
+   {
+    "address": "0xe4f9070e1316de2988fc6f869fead8fb99cc74cd",
+    "group": "attacker operations",
+    "label": "gas funder",
+    "eth": 0,
+    "nonce": 2
+   },
+   {
+    "address": "0x63e842b054bd624a465454d533c33f573e9c6fae",
+    "group": "attacker operations",
+    "label": "sweeper contract",
+    "eth": 0,
+    "nonce": 1
+   },
+   {
+    "address": "0x837810e3be7a3e89c570e7a01a13d3b566aafbc3",
+    "group": "attacker operations",
+    "label": "rehearsal wallet",
+    "eth": 0.001,
+    "nonce": 1
+   },
+   {
+    "address": "0x9c29ba2de4b2d6c3630685650663cfe7b70dbb6b",
+    "group": "attacker operations",
+    "label": "rehearsal wallet",
+    "eth": 0.002,
+    "nonce": 1
+   },
+   {
+    "address": "0x43aedb9bad6219677a2c8d6858321c16988404bd",
+    "group": "attacker operations",
+    "label": "rehearsal wallet",
+    "eth": 0,
+    "nonce": 2
+   },
+   {
+    "address": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+    "group": "attacker operations",
+    "label": "main receiver",
+    "eth": 0.0004,
+    "nonce": 729
+   },
+   {
+    "address": "0xa97bf7836f8a08f9ed91d41453d371493fae8d10",
+    "group": "attacker operations",
+    "label": "second receiver",
+    "eth": 0,
+    "nonce": 1318
+   },
+   {
+    "address": "0x9749292d74fd460982d0912ea9515ea24736c762",
+    "group": "stablecoin hop",
+    "label": "hop 1",
+    "eth": 0.0007,
+    "nonce": 11
+   },
+   {
+    "address": "0x0ddf0480016e6bcb2c1f5d190d221fba1320697e",
+    "group": "stablecoin hop",
+    "label": "hop 2",
+    "eth": 0,
+    "nonce": 6
+   },
+   {
+    "address": "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a",
+    "group": "stablecoin hop",
+    "label": "hop 3",
+    "eth": 0,
+    "nonce": 9
+   },
+   {
+    "address": "0x77edef23fbd05921c26fe29fcc3a65e14d2ac3eb",
+    "group": "stablecoin hop",
+    "label": "hop 4",
+    "eth": 0.014,
+    "nonce": 5
+   },
+   {
+    "address": "0x7aa4d3029e4c6a8e916300014ad95b6d6c03bfd1",
+    "group": "stablecoin hop",
+    "label": "hop 5",
+    "eth": 0.044,
+    "nonce": 5
+   },
+   {
+    "address": "0xccbef95633adb5cd2b5038db5a38d77e726ca263",
+    "group": "stablecoin hop",
+    "label": "hop 6",
+    "eth": 0.029,
+    "nonce": 2
+   },
+   {
+    "address": "0xb171ca86f82070282138352ff7111b494060c8c3",
+    "group": "stablecoin hop",
+    "label": "hop 7",
+    "eth": 0.0028,
+    "nonce": 3
+   },
+   {
+    "address": "0x811f15855476156ebf86ba3b84fafb8ceaa4e84c",
+    "group": "stablecoin hop",
+    "label": "hop 8",
+    "eth": 0.0014,
+    "nonce": 3
+   },
+   {
+    "address": "0xaa246bf639586a6ba46762d378ce50ca4fc654a0",
+    "group": "stablecoin hop",
+    "label": "hop 9",
+    "eth": 0.0011,
+    "nonce": 4
+   },
+   {
+    "address": "0x600d6f00eadabdb514561ceeb43730a7103e8298",
+    "group": "token seller",
+    "label": "seller",
+    "eth": 0.0006,
+    "nonce": 102
+   },
+   {
+    "address": "0xcf4ca2bdf21bc3a467a00b6afe72b833982723e0",
+    "group": "token seller",
+    "label": "seller",
+    "eth": 0.0003,
+    "nonce": 95
+   },
+   {
+    "address": "0xb3ddec0ccc5c3ba733fcdf5a15f98c95ec5a5fdb",
+    "group": "token seller",
+    "label": "seller",
+    "eth": 0.0005,
+    "nonce": 313
+   },
+   {
+    "address": "0x42cdf00c85005630cc8605731b9364f712077810",
+    "group": "token seller",
+    "label": "seller",
+    "eth": 0.006,
+    "nonce": 75
+   },
+   {
+    "address": "0x7f9dc988b46336ad536828fad50fa8fa1e5415e3",
+    "group": "token seller",
+    "label": "seller",
+    "eth": 0.0017,
+    "nonce": 25
+   },
+   {
+    "address": "0xe7024ab80143b1ef843efe6a58368696cb87958d",
+    "group": "token seller",
+    "label": "seller",
+    "eth": 0.0162,
+    "nonce": 32
+   },
+   {
+    "address": "0x8c7111e9a3270457b76f0bd137209089047a6aa4",
+    "group": "token seller",
+    "label": "seller",
+    "eth": 0.0065,
+    "nonce": 14
+   },
+   {
+    "address": "0xb58bf76d209fa71f60013ce1933ca331177a4f08",
+    "group": "token seller",
+    "label": "seller",
+    "eth": 0.0001,
+    "nonce": 16
+   },
+   {
+    "address": "0x1291be4c90239d14527ba880ad2b6e5cb82116b1",
+    "group": "token seller",
+    "label": "seller",
+    "eth": 0.0051,
+    "nonce": 14
+   },
+   {
+    "address": "0x11861b31b97c5c6550d49b03b1eed1a105774084",
+    "group": "token seller",
+    "label": "seller",
+    "eth": 0,
+    "nonce": 1
+   },
+   {
+    "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+    "group": "ETH stash",
+    "label": "stash",
+    "eth": 197460.0089,
+    "nonce": 0
+   },
+   {
+    "address": "0xc887af690e0301cd4edbbce8f8d31b4ec65b286a",
+    "group": "ETH stash",
+    "label": "stash",
+    "eth": 137602.0018,
+    "nonce": 0
+   },
+   {
+    "address": "0x897c80d1a9729e94460e2bd93178bd5215158df3",
+    "group": "ETH stash",
+    "label": "stash",
+    "eth": 78415.2528,
+    "nonce": 0
+   },
+   {
+    "address": "0x54401f80da97893a15d43566184635b6674bc942",
+    "group": "ETH stash",
+    "label": "stash",
+    "eth": 40600.6718,
+    "nonce": 0
+   },
+   {
+    "address": "0x79e70d139fc05aa75f75611fdf2680e9952b544a",
+    "group": "ETH stash",
+    "label": "stash",
+    "eth": 34279.6949,
+    "nonce": 0
+   },
+   {
+    "address": "0x03b0ee5d82990cff1bda48651ac3e436d1a020ea",
+    "group": "ETH stash",
+    "label": "stash",
+    "eth": 17260.1048,
+    "nonce": 0
+   },
+   {
+    "address": "0xc2096a12ebe0944f4d39e59979f485afd92d850a",
+    "group": "ETH stash",
+    "label": "stash",
+    "eth": 7002.7864,
+    "nonce": 0
+   },
+   {
+    "address": "0x8d4b8ee62124b7ee140a51ddd07390a56f1c9e19",
+    "group": "ETH stash",
+    "label": "stash (eighth, found 31 Oct)",
+    "eth": 4229.1781,
+    "nonce": 0
+   },
+   {
+    "address": "0x209178dd0f192213e374af795d785539e919562a",
+    "group": "token seller",
+    "label": "relay and SAHARA seller (31 Oct)",
+    "eth": 0,
+    "nonce": 6
+   },
+   {
+    "address": "0x0084847bb9384d2fc5e8836e663689467e3e4c81",
+    "group": "token seller",
+    "label": "seller (30 Oct)",
+    "eth": 0.0001,
+    "nonce": 29
+   },
+   {
+    "address": "0xf1eadb247ffc7d7d6600e84daaf9ee85737e73c4",
+    "group": "token seller",
+    "label": "seller (30 Oct)",
+    "eth": 0.0001,
+    "nonce": 21
+   },
+   {
+    "address": "0xa3b3dee870f01560fdbe5af659c9c9135748886f",
+    "group": "token seller",
+    "label": "seller (30 Oct)",
+    "eth": 0.0024,
+    "nonce": 21
+   },
+   {
+    "address": "0x337403dc35a87bbd787ae8e7b61a7fcb19e3e6a5",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 0,
+    "nonce": 5
+   },
+   {
+    "address": "0x84614d0bfce3417088e20e2bd9d6d6091279e9b8",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 0.05,
+    "nonce": 0
+   },
+   {
+    "address": "0x774138791890148b42822d9d1d69965ce38312ab",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 0,
+    "nonce": 5
+   },
+   {
+    "address": "0x47de691e73647c94a14d2b08bfb132b134ec7226",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 0.05,
+    "nonce": 0
+   },
+   {
+    "address": "0xac49b4c5be18b17bfcd6c9ec265f85f4387c29f9",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 0.05,
+    "nonce": 0
+   },
+   {
+    "address": "0x04529ce891cf942e37d9f477a4e34ab031ec6dc9",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 0,
+    "nonce": 9
+   },
+   {
+    "address": "0xef1f5d4d9c11e16749c099f4006390e804c65f09",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 0,
+    "nonce": 23
+   },
+   {
+    "address": "0x5c23023ca6633f91ded909b4a753a3ca00fea4fc",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 0.051,
+    "nonce": 3
+   },
+   {
+    "address": "0xe1b92d6e3075bba3d0ab921dd5e95f97e1ad52aa",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 0.05,
+    "nonce": 0
+   },
+   {
+    "address": "0xe5912b8eb692305a55370ec68cb6a9ab139c7aaa",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 0.05,
+    "nonce": 0
+   },
+   {
+    "address": "0x1439e9d8dd8e543b660609b81b4b4df66901ae1a",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 191.7906,
+    "nonce": 7
+   },
+   {
+    "address": "0xa1477b07f370d8e0dc84e94538dd40f75a523fc7",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 202.8194,
+    "nonce": 14
+   },
+   {
+    "address": "0xce9d97ee40aa605ac117c333b5397839cc3fe807",
+    "group": "token seller",
+    "label": "seller (31 Oct)",
+    "eth": 70.7325,
+    "nonce": 4
+   }
+  ],
+  "tokens": [
+   {
+    "token": "USDT",
+    "holder": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+    "balance": 1175464712.876362
+   },
+   {
+    "token": "USDT",
+    "holder": "0xaa246bf639586a6ba46762d378ce50ca4fc654a0",
+    "balance": 174999872.32762
+   },
+   {
+    "token": "USDT",
+    "holder": "0xb171ca86f82070282138352ff7111b494060c8c3",
+    "balance": 30000000
+   },
+   {
+    "token": "USDC",
+    "holder": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+    "balance": 823000000
+   },
+   {
+    "token": "RLUSD",
+    "holder": "0xe7024ab80143b1ef843efe6a58368696cb87958d",
+    "balance": 40541065
+   },
+   {
+    "token": "WBETH",
+    "holder": "0x7f9dc988b46336ad536828fad50fa8fa1e5415e3",
+    "balance": 29934.013163146017
+   }
+  ],
+  "fillers": [
+   {
+    "address": "0x74edc79fea13bdf1f7841570227127cec493bdd9",
+    "usdt_blacklisted": false
+   },
+   {
+    "address": "0x0000000000be226afde21672a5e4adc45692e69d",
+    "usdt_blacklisted": false
+   },
+   {
+    "address": "0xbeef02961503351625926ea9a11ae13b29f5c555",
+    "usdt_blacklisted": false
+   },
+   {
+    "address": "0xec4fb7e7c35c241e1138a2d8cfbb09f3ad1ccb22",
+    "usdt_blacklisted": false
+   },
+   {
+    "address": "0x9b1303ebf09bc51b7fac376c9e421e8daae63b82",
+    "usdt_blacklisted": false
+   }
+  ],
+  "aave": {
+   "owner": "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a",
+   "collateral_usd": 59953794.21776074,
+   "debt_usd": 44461765.95810451,
+   "health_factor": 1.0517791743566411,
+   "oracle_eth_usd": 2249.58864895,
+   "liquidation_eth_usd": 2366.07
+  }
+ },
+ "bitcoin": {
+  "lots_total_btc": 18270.20078,
+  "lots_with_any_spend": 0,
+  "wallets": [
+   {
+    "address": "bc1q0mtc2f5agpkvlq6hhahmfr3hlr55kyfjhl2mnm",
+    "label": "first receiver",
+    "balance_btc": 0.00000779,
+    "tx_count": 18,
+    "spent_outputs": 11
+   },
+   {
+    "address": "bc1qnq6jj9jmlf3945m3l8s0kxnqehrsga300k8t3s",
+    "label": "BTC lot",
+    "balance_btc": 1000.0000581,
+    "tx_count": 8,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qxrxujwxfnvz040jw76d26zhjdg5jura7hs968s",
+    "label": "BTC lot",
+    "balance_btc": 1000.00005885,
+    "tx_count": 8,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qs3aej5tmcdz0vctz8y9rjcxtxg8v5385577s56",
+    "label": "BTC lot",
+    "balance_btc": 1000.00004713,
+    "tx_count": 8,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qjwdw6vrzq4vf6hckutvx4ucj86awwv99mxnz7w",
+    "label": "BTC lot",
+    "balance_btc": 1000.00004736,
+    "tx_count": 8,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1q0ts8gaf9ht0rr4u02hr56f8thndqsc4kmkmfv3",
+    "label": "BTC lot",
+    "balance_btc": 1000.00004772,
+    "tx_count": 8,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qrg025e2pgx0rwya2kpgtj30972p64jt0hn6zyt",
+    "label": "BTC lot",
+    "balance_btc": 832.49995202,
+    "tx_count": 7,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qepc70u3u476vgvg3hfcwjgu4mecxe2uchs4lag",
+    "label": "BTC lot",
+    "balance_btc": 1000.00005812,
+    "tx_count": 8,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qm2j6v3247khlwzxl7p9vqnfkghcllyhv9wjaat",
+    "label": "BTC lot",
+    "balance_btc": 1000.00004772,
+    "tx_count": 8,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qdfhmlrdvg4tm87zjl0vyf0xflp5ql50q3g88gw",
+    "label": "BTC lot",
+    "balance_btc": 1000.0000581,
+    "tx_count": 8,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1q2wvz0kcsn4hqmajwtey30ud27fl25w8pveznn6",
+    "label": "BTC lot",
+    "balance_btc": 1000.00004772,
+    "tx_count": 8,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qg3nrzpuvq2pxqx74tcrywr09dc208ze96n3t53",
+    "label": "BTC lot",
+    "balance_btc": 1000.00003772,
+    "tx_count": 7,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qz8hdwv8gmml0u96dsvnzsagz6krjyzxmgxupdp",
+    "label": "BTC lot",
+    "balance_btc": 1000.00004828,
+    "tx_count": 7,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qalwnl7dtaa73fsq5tyn0ghfy3fgfpqkt69tca8",
+    "label": "BTC lot",
+    "balance_btc": 1000.00004736,
+    "tx_count": 8,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1q63qrfrpsg5hh0zzn3kp2xx9vljl7dq7tatsjxp",
+    "label": "BTC lot",
+    "balance_btc": 1000.00004181,
+    "tx_count": 7,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qf5cyvv9w50tx9xx9s3xwsne0z87wvjj9l8a35u",
+    "label": "BTC lot",
+    "balance_btc": 1000.00003403,
+    "tx_count": 6,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qs6xnmhar38z44g2za93pv8ygdcwurrh8l87w3v",
+    "label": "BTC lot",
+    "balance_btc": 1000.00004109,
+    "tx_count": 6,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qm8v88m5fy6kuq9myva2eemwycxqd3e0zcrs2l8",
+    "label": "BTC lot",
+    "balance_btc": 1000.00002624,
+    "tx_count": 5,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1q42flhayrzy3zh8lkyevw8qcjduurt9a35wlsyx",
+    "label": "BTC lot",
+    "balance_btc": 1000.00004852,
+    "tx_count": 7,
+    "spent_outputs": 0
+   },
+   {
+    "address": "bc1qxg0l4p6xc50zuv9cl5f0l0wmaxjpg8wcy7s9ra",
+    "label": "BTC lot",
+    "balance_btc": 437.70003211,
+    "tx_count": 7,
+    "spent_outputs": 0
+   }
+  ]
+ },
+ "tron": {
+  "wallets": [
+   {
+    "address": "TG5iBMQPrDzJJAUM8GMVBf1hRaJ1wvzsGi",
+    "label": "first receiver",
+    "trx": 0.032011,
+    "usdt": 312729468,
+    "last_outgoing_tx": {
+     "txid": "6adfc066520a5880df18eebc61bf048d03e8d7a0fca23b04a6b36c9723892736",
+     "time": "2026-10-30T00:06:09.000Z"
+    }
+   },
+   {
+    "address": "TPBkSjkCMn2ckrMuAP8n2J1jdjbw76bKN4",
+    "label": "swapper",
+    "trx": 9.1,
+    "usdt": 0,
+    "last_outgoing_tx": {
+     "txid": "fb5089f5ce2ae9be6f8e5e3f78470a5a8d694879ac68f6c8cfe3d81450fa6149",
+     "time": "2026-10-29T21:42:42.000Z"
+    }
+   },
+   {
+    "address": "TCzBTkqn66yApqbYoPezaEQosM5DAd7Y62",
+    "label": "hop",
+    "trx": 0.100002,
+    "usdt": 65990000,
+    "last_outgoing_tx": {
+     "txid": "f4d4e4c665c301159ba35210db65377908f764789480b5b2a2b371494b42245a",
+     "time": "2026-10-29T21:43:27.000Z"
+    }
+   },
+   {
+    "address": "TSpe5HC3PRD2svJcr1YoGszhHk2mtkyZ8A",
+    "label": "TRX stash",
+    "trx": 36.80052,
+    "usdt": 0,
+    "last_outgoing_tx": {
+     "txid": "aff887c4be7cd52eb8905899fc9596eaaf9c49dea59129519ce25d7c69762334",
+     "time": "2026-10-30T10:20:18.000Z"
+    }
+   },
+   {
+    "address": "TRBdWqHnDVSZCVGfgHdKFLQPirQcA2PRki",
+    "label": "TRX holder",
+    "trx": 96672043.66599,
+    "usdt": 3,
+    "last_outgoing_tx": {
+     "txid": "39b7501af2ca241078a5cb483e2a2b7671978b1b6f98af469edaab101bd5624a",
+     "time": "2026-10-31T15:26:48.000Z"
+    }
+   },
+   {
+    "address": "TAk1xJNWuBYvJHLsUiBFLeuK6xvpQUFYP5",
+    "label": "TRX split wallet",
+    "trx": 0.000009,
+    "usdt": 0,
+    "last_outgoing_tx": {
+     "txid": "0ae2b5a4e1c8849d09e16db5a4dd9d90f7224c3b996a80ccad113bd5b81acd39",
+     "time": "2026-10-30T10:20:48.000Z"
+    }
+   },
+   {
+    "address": "TL2F4GhnaFVZBZPncHYjwfYZFW44NcfVwj",
+    "label": "TRX split wallet",
+    "trx": 0.000015,
+    "usdt": 0,
+    "last_outgoing_tx": {
+     "txid": "bb05d43bfde6cb869448ad03bf06969e32cc7cd77252a78d41dd7f7c26dbf0b3",
+     "time": "2026-10-31T01:01:15.000Z"
+    }
+   },
+   {
+    "address": "TCBAz7itvtX5CjBzVMPQdrbwQLN63ao1fk",
+    "label": "TRX split wallet",
+    "trx": 0.000006,
+    "usdt": 0,
+    "last_outgoing_tx": {
+     "txid": "d3684f76b615028b350c294c2c774313af2212319de653f5a04ff68bc351d465",
+     "time": "2026-10-31T07:58:48.000Z"
+    }
+   },
+   {
+    "address": "TJajtPqDqUGh1Sr1j8ugHoSXBVpaFLLHKT",
+    "label": "TRX split wallet",
+    "trx": 0.000009,
+    "usdt": 0,
+    "last_outgoing_tx": {
+     "txid": "7f799c3c177c40abd0e474872da5bf1667829cf2f29e0bbbeb6afa8b98723a25",
+     "time": "2026-10-31T14:50:51.000Z"
+    }
+   },
+   {
+    "address": "TKkH2vH6kyi2QKcMbqym53WMuvdd1xvw6K",
+    "label": "TRX split wallet",
+    "trx": 158200902.000018,
+    "usdt": 0,
+    "last_outgoing_tx": null
+   }
+  ]
+ },
+ "xrpl": {
+  "address": "rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx",
+  "ledger_index": 108025981,
+  "balance_xrp": 233461943.68905,
+  "sequence": 107986693
+ },
+ "solana": {
+  "address": "AffzFDKZbyMiU11zmVBoAqD25ugpr7xoWWyRyGigBEaU",
+  "slot": 463740015,
+  "balance_sol": 970554.126055879,
+  "latest_signature_any_direction": {
+   "signature": "DzNSZnGpK54R6jxvw5JPS264mrrVp3takx5zKTq3bkzdYHV98pwN4bLhUCxcQ5jP6NLzEDvpk2eMMUoMSQMr8oP",
+   "time": "2026-10-31T15:26:35.000Z"
+  }
+ }
+}

@@ -1,0 +1,14 @@
+lead,source,why_unverified
+"Binance and Bitget proceeds met at 0x1510...eb7 at 04:02 on 30 Oct, after THORChain",ZachXBT (x.com/zachxbt/status/2116030284261179538); Cointegrity,address truncated in every source
+"About $1.9M of TRX through a roughly 28-hop peel chain, THORChain and Hyperlane",Cointegrity,not traced; TRBd has other inflows to follow
+"$38-67M left the traced Tron addresses, mostly into ETH via swap services and bridges",Elliptic,not traced
+"All AVAX sold for USDC, bridged with CCTP, swapped for 7,242.8 ETH (30 Oct 11:38-12:29)",Elliptic,only the 12:29 ParaSwap sale is verified; ETH destination not found
+Solana address 9Skjw...TjdQ and a NEAR address,Elliptic (per Cointegrity),truncated
+"200M USDT sent by a Binance-listed wallet into Binance 14 at 21:42, swept 72 s later",Bitquery,the 21:44:11 sweep is verified; inbound leg not checked
+"Ripple RLUSD freeze at 22:01; WLF freezes at 20:57, 22:10, 22:26",TRM; Cointegrity; Bitquery,balances verified; freeze tx hashes not located
+Tether freezes of 8.4M USDt (Avalanche) and 6.2M USDT0 (Polygon),TRM,balances unmoved; freeze txs not located
+Binance froze WBETH,Elliptic,"29,934 WBETH unsold in 0x7f9dc988; freeze not confirmed"
+"ETH held: Elliptic 519,104; Bitquery 508,621; this dataset 516,850 in eight stashes",Elliptic; Bitquery,other stashes may exist outside the traced wallets (the eighth was found on 31 Oct)
+Where the 430M TRX dispersed from TRBd ends up,on-chain,176 fresh recipient wallets each forward onward; no shared exit found two hops out
+300M USDT to a wallet supplying JustLend,TRM,"on-chain JustLend supply is only 10,000 USDT"
+Contract TTJxU3P8rHycAyFY4kVtGNfmnMH4ezcuM9 called by TPBk and TCzBTk,on-chain,contract not identified
